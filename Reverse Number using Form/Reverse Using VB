@@ -1,0 +1,21 @@
+Public Class Form1
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim Number, revrse As Integer
+        revrse = 0
+        Number = Val(TextBox1.Text)
+
+        While (Number > 0)
+            Dim r As Integer
+            r = Number Mod 10
+            revrse = (revrse * 10) + r
+            Number = Number \ 10
+        End While
+
+        Label4.Text = revrse
+
+    End Sub
+End Class
