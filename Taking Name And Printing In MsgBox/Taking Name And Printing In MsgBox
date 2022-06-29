@@ -1,0 +1,17 @@
+'Taking Name in TextBox and Displaying in Dialog Box
+Public Class Form1
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim name As String
+        name = TextBox1.Text
+        'MsgBox("Your Name is : {0}",name)'or
+        MsgBox("Your Name is : " & name)
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+End Class
