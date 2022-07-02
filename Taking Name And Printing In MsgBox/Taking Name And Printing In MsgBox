@@ -1,4 +1,4 @@
-'Taking Name in TextBox and Displaying in Dialog Box
+'Taking Name in TextBox and Displaying in MsgBox Box
 Public Class Form1
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
